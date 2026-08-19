@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int soma1;
+    int soma2;
+    int resultado;
+   
+    printf("Digite o primeiro numero: ");
+    
+    scanf("%d", &soma1);
+  
+    printf("Digite o segundo numero: ");
+  
+    scanf("%d", &soma2);
+    
+    resultado = soma1 + soma2;
+    
+    printf("O resultado da soma é: %d", resultado);
+    
+    return 0;
+}
